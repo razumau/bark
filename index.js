@@ -6,7 +6,7 @@ Clark (https://github.com/ajacksified/Clark by Jack Lawson) converted to bar cha
   var ticks = ['▁', '▂', '▃', '▄', '▅', '▆', '▇'],
       data;
 
-  var clark = function(data) {
+  var bark = function(data) {
     var max = Math.max.apply(Math, data),
         currentTick;
 
@@ -23,15 +23,15 @@ Clark (https://github.com/ajacksified/Clark by Jack Lawson) converted to bar cha
   /* expose it to the world */
 
   if((typeof module !== "undefined") && module.exports){
-    module.exports = clark;
+    module.exports = bark;
   } else if((typeof define === 'function') && define.amd) {
     // AMD
-    define('clark', [], function() {
-      root.clark = clark;
-      return clark;
+    define('bark', [], function() {
+      root.bark = bark;
+      return bark;
     });
   } else {
     // Browser global
-    root.clark  = clark;
+    root.bark  = bark;
   }
 }).call(this);
