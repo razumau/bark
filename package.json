@@ -9,9 +9,11 @@
   "repository": {
     "type": "git", 
     "url": "https://github.com/razumau/bark"
-  }
+  },
   "keywords": [
     "graph",
+    "chart",
+    "ascii",
     "sparkline"
   ],
   "author": "Jury Razumau <jurazumau@gmail.com>",
