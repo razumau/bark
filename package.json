@@ -1,6 +1,6 @@
 {
   "name": "barkline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ugly son of a bar chart and a sparkline. Based on https://github.com/ajacksified/Clark/ by Jack Lawson.",
   "main": "index.js",
   "scripts": {
